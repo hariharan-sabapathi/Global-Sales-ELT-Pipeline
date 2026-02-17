@@ -10,7 +10,7 @@ This is intentionally designed as a **production-style pipeline**, not just a on
 
 ---
 
-## High-Level Architecture
+## Architecture
 
 **Data Sources**
 
