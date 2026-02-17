@@ -65,7 +65,7 @@ The pipeline follows a standard **layered warehouse design**:
 ## Repository Structure
 
 ```
-Global-Sales-Project/
+Global-Sales-ELT-Pipeline/
 ├── snowpark/
 │   ├── raw_load.py
 │   ├── transformed_load.py
