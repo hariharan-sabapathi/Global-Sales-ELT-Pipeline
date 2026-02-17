@@ -105,7 +105,7 @@ Responsible for:
 * Cleaning and typing data
 * Writing cleaned results into the **RAW** schema
 
-This script represents the **EL** portion of the pipeline.
+This script represents the **Extract and Load** portion of the pipeline.
 
 ---
 
@@ -118,7 +118,7 @@ Responsible for:
 * Unioning India, USA, and UK data
 * Creating a single **GLOBAL_SALES_ORDER** table
 
-This script represents the **T** portion of the pipeline.
+This script represents the **Transform** portion of the pipeline.
 
 ---
 
@@ -216,16 +216,6 @@ SELECT * FROM SNOWPARK_DB.CURATED.SALES_BY_COUNTRY;
 * Applies layered warehouse design
 * Shows practical CI/CD without Airflow
 * Separates execution from verification
-
----
-
-## Future Enhancements
-
-* Scheduled runs
-* Incremental loading
-* Data quality checks
-* Alerting on failures
-* BI dashboard integration
 
 ---
 
